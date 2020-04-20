@@ -21,9 +21,6 @@ $(document).ready(function(){
 function onLoad()
 {
     scrollTop = window.pageYOffset;
-    $(document).on('mousedown', 'button', function(e){
-      e.preventDefault();
-    });
     navOn();
     resetGuide();
 }
@@ -85,6 +82,10 @@ function onScroll()
 }());
 
 $(function(){
+    $(document).on('mousedown', 'button', function(e){
+      e.preventDefault();
+    });
+    
     modeChanged = false;
     nav();
     goIntro();
