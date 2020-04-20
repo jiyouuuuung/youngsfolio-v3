@@ -85,7 +85,7 @@ $(function(){
     $(document).on('mousedown', 'button', function(e){
       e.preventDefault();
     });
-    
+
     modeChanged = false;
     nav();
     goIntro();
@@ -113,7 +113,6 @@ $(function(){
 var kvHeight;
 function resetGuide() {
     kvHeight = $('#section-intro .intro-kv .kv-slide').outerHeight();
-    console.log(kvHeight);
     $('#section-intro').css({"height": windowHeight + "px"});
     if (viewMode === 'device' && (windowHeight >= (windowWidth * 1.25))) {
         $('#section-intro .scroll_guide').css({"height": (windowHeight - kvHeight) / 2 - 14 + "px"});
