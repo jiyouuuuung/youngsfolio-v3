@@ -1,0 +1,256 @@
+{
+    "works" : [
+        {
+            "number": "014",
+            "title": "YoungsFolio(v3)",
+            "date": "Apr 2020",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "100",
+                "design": "100",
+                "google web designer": "0"
+            },
+            "site": "//youngsfolio.com/",
+            "code": null,
+            "onMain": true
+        },
+        {
+            "number": "013",
+            "title": "YoungsFolio(v2)",
+            "date": "Mar 2020",
+            "desc": "self designed & built portfolio website",
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "100",
+                "design": "100",
+                "google web designer": "0"
+            },
+            "site": "//youngsfolio002.dothome.com/",
+            "code": "//github.com/jiyouuuuung/youngsfolio-v2",
+            "onMain": false
+        },
+        {
+            "number": "012",
+            "title": "Fronteo Korea",
+            "date": "Dec 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "100",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//korea.fronteo.com/",
+            "code": null,
+            "onMain": true
+        },
+        {
+            "number": "011",
+            "title": "Ninefive Website",
+            "date": "Aug 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "40",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//www.ninefive.com/",
+            "code": "//github.com/jiyouuuuung/ninefive_renewal",
+            "onMain": true
+        },
+        {
+            "number": "010",
+            "title": "Artist Event(Magic)",
+            "date": "Aug 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": null,
+            "code": "//github.com/jiyouuuuung/gamification",
+            "onMain": false
+        },
+        {
+            "number": "009",
+            "title": "Hyundai MNSoft",
+            "date": "Jul 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "80",
+                "css": "80",
+                "media query": "80",
+                "jquery": "5",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//mnsoft.95dx.com/KR/",
+            "code": null,
+            "onMain": true
+        },
+        {
+            "number": "008",
+            "title": "iBighit Website",
+            "date": "Jul 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//ibighit.com/",
+            "code": null,
+            "onMain": true
+        },
+        {
+            "number": "007",
+            "title": "Samsung VD Banner",
+            "date": "Jun 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "0",
+                "css": "0",
+                "media query": "0",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "100"
+            },
+            "site": null,
+            "code": "//github.com/jiyouuuuung/banner/tree/master/20190610_VD",
+            "onMain": false
+        },
+        {
+            "number": "006",
+            "title": "BTS Website",
+            "date": "May 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//ibighit.com/bts/",
+            "code": null,
+            "onMain": true
+        },
+        {
+            "number": "005",
+            "title": "Samsung QLED Banner",
+            "date": "Jun 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "0",
+                "css": "0",
+                "media query": "0",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "100"
+            },
+            "site": null,
+            "code": "//github.com/jiyouuuuung/banner/tree/master/20190503_QLED",
+            "onMain": false
+        },
+        {
+            "number": "004",
+            "title": "Samsung Display",
+            "date": "Mar 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//www.samsungdisplay.com/kor/index.jsp",
+            "code": null,
+            "onMain": false
+        },
+        {
+            "number": "003",
+            "title": "Samsung Care",
+            "date": "Jan 2019",
+            "desc": null,
+            "skills":
+            {
+                "html": "50",
+                "css": "50",
+                "media query": "0",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//www.ohsec.or.kr",
+            "code": null,
+            "onMain": false
+        },
+        {
+            "number": "002",
+            "title": "Samsung Curved",
+            "date": "Nov 2018",
+            "desc": null,
+            "skills":
+            {
+                "html": "50",
+                "css": "50",
+                "media query": "50",
+                "jquery": "0",
+                "design": "0",
+                "google web designer": "0"
+            },
+            "site": "//next.samsungdisplay.com",
+            "code": null,
+            "onMain": false
+        },
+        {
+            "number": "001",
+            "title": "YoungsFolio(v1)",
+            "date": "Feb 2018",
+            "desc": "the first built website. self designed portfolio website",
+            "skills":
+            {
+                "html": "100",
+                "css": "100",
+                "media query": "100",
+                "jquery": "40",
+                "design": "100",
+                "google web designer": "0"
+            },
+            "site": "//youngsfolio.dothome.co.kr/",
+            "code": "//github.com/jiyouuuuung/youngsfolio-v1",
+            "onMain": false
+        }
+    ]
+}
