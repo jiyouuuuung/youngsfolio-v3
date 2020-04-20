@@ -2,7 +2,7 @@
     "works" : [
         {
             "number": "014",
-            "title": "YoungsFolio(v3)",
+            "title": "Young's Folio(v3)",
             "date": "Apr 2020",
             "desc": null,
             "skills":
@@ -14,13 +14,13 @@
                 "design": "100",
                 "google web designer": "0"
             },
-            "site": "//youngsfolio.com/",
-            "code": null,
+            "site": "//Young's Folio.com/",
+            "code": "//github.com/jiyouuuuung/Young's Folio-v3",
             "onMain": true
         },
         {
             "number": "013",
-            "title": "YoungsFolio(v2)",
+            "title": "Young's Folio(v2)",
             "date": "Mar 2020",
             "desc": "self designed & built portfolio website",
             "skills":
@@ -32,8 +32,8 @@
                 "design": "100",
                 "google web designer": "0"
             },
-            "site": "//youngsfolio002.dothome.com/",
-            "code": "//github.com/jiyouuuuung/youngsfolio-v2",
+            "site": "//Young's Folio002.dothome.com/",
+            "code": "//github.com/jiyouuuuung/Young's Folio-v2",
             "onMain": false
         },
         {
@@ -236,7 +236,7 @@
         },
         {
             "number": "001",
-            "title": "YoungsFolio(v1)",
+            "title": "Young's Folio(v1)",
             "date": "Feb 2018",
             "desc": "the first built website. self designed portfolio website",
             "skills":
@@ -248,8 +248,8 @@
                 "design": "100",
                 "google web designer": "0"
             },
-            "site": "//youngsfolio.dothome.co.kr/",
-            "code": "//github.com/jiyouuuuung/youngsfolio-v1",
+            "site": "//Young's Folio.dothome.co.kr/",
+            "code": "//github.com/jiyouuuuung/Young's Folio-v1",
             "onMain": false
         }
     ]
