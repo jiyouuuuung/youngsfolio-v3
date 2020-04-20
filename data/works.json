@@ -15,7 +15,7 @@
                 "google web designer": "0"
             },
             "site": "//Young's Folio.com/",
-            "code": "//github.com/jiyouuuuung/Young's Folio-v3",
+            "code": "//github.com/jiyouuuuung/youngsfolio-v3",
             "onMain": true
         },
         {
@@ -33,7 +33,7 @@
                 "google web designer": "0"
             },
             "site": "//Young's Folio002.dothome.com/",
-            "code": "//github.com/jiyouuuuung/Young's Folio-v2",
+            "code": "//github.com/jiyouuuuung/youngsfolio-v2",
             "onMain": false
         },
         {
@@ -249,7 +249,7 @@
                 "google web designer": "0"
             },
             "site": "//Young's Folio.dothome.co.kr/",
-            "code": "//github.com/jiyouuuuung/Young's Folio-v1",
+            "code": "//github.com/jiyouuuuung/youngsfolio-v1",
             "onMain": false
         }
     ]
