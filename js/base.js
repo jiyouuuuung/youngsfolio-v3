@@ -94,9 +94,8 @@ $(function(){
     $('#section-works').on('click', '.work-lists button', function(){
         var thisIdx = $(this).parents('li').index();
         popupData(thisIdx);
-        $('#works-popup').css({"display": "block"}).animate({"opacity": "1"}, 1000, function(){
-            $('html, body').css({"overflow": "hidden"});
-        });
+        $('html, body').css({"overflow": "hidden"});
+        $('#works-popup').css({"display": "block"}).animate({"opacity": "1"}, 1000);
         popupOpened = true;
     });
 

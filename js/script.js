@@ -216,7 +216,7 @@ function popupReset() {
         $('#works-popup').stop().animate({"opacity": "0"}, 300, function(){
             $(this).css({"display": "none"});
             $('html, body').css({"overflow": ""});
-            $('#works-popup .obj-bg').css({"background-image": "none", "background-position": "0% 0%"});
+            $('#works-popup .obj-bg').css({"background-image": "none", "background-position": "center"});
             $('#works-popup .area-txt h3').text('');
             $('#works-popup .area-txt .date').text('');
             $('#works-popup .area-txt .desc').remove();
