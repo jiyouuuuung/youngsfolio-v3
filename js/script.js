@@ -329,28 +329,30 @@ function popupData(i) {
                 $('#works-popup .area-txt .info').append(workDesc);
             }
             var listContent = '';
+            listContent += '<ul>';
             Object.keys(responseObject.works[i].skills).forEach(function(key){
                 var skills = responseObject.works[i].skills[key];
                 if (skills > 0) {
                     listContent += '<li>' + key + ': ' + skills + '%</li>'
                 }
             });
-            $('#works-popup .area-txt .conttribution ul').append(listContent);
+            listContent += '</ul>';
+            $('#works-popup .area-txt .conttribution').append(listContent);
             var siteLink = '';
             var codeLink = '';
             if (responseObject.works[i].site === null) {
                 $('#works-popup .area-txt .link-site').remove();
             } else {
                 $('#works-popup .area-txt .link-site').remove();
-                siteLink += '<li class="link-site"><a href="' + responseObject.works[i].site + '" target="_blank" title="open in new window: go to website of ' + responseObject.works[i].title + '">view <br>site</a></li>'
-                $('#works-popup .area-txt .links ul').append(siteLink);
+                siteLink += '<div class="link-site"><a href="' + responseObject.works[i].site + '" target="_blank" title="open in new window: go to website of ' + responseObject.works[i].title + '">view <br>site</a></div>';
+                $('#works-popup .area-txt .link-lists').append(siteLink);
             }
             if (responseObject.works[i].code === null) {
                 $('#works-popup .area-txt .link-code').remove();
             } else {
                 $('#works-popup .area-txt .link-code').remove();
-                codeLink += '<li class="link-code"><a href="' + responseObject.works[i].code + '" target="_blank" title="open in new window: see the code of ' + responseObject.works[i].title + '">view <br>code</a></li>'
-                $('#works-popup .area-txt .links ul').append(codeLink);
+                codeLink += '<div class="link-code"><a href="' + responseObject.works[i].code + '" target="_blank" title="open in new window: see the code of ' + responseObject.works[i].title + '">view <br>code</a></div>';
+                $('#works-popup .area-txt .link-lists').append(codeLink);
             }
         }
     };

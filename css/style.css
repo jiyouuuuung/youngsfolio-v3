@@ -132,12 +132,12 @@ body:not(.device) #section-contact a:hover::after {width: 100%;}
 #works-popup .area-txt .conttribution li::after {content: ''; display: block; position: absolute; top: 50%; left: 4px; width: 2px; height: 2px; margin-top: -1px; border-radius: 50%; background: #f6f6f6;}
 #works-popup .area-txt .valign {max-width: 306px; margin: 0 auto;}
 #works-popup .area-txt .links {float: right;}
-#works-popup .area-txt .links ul {display: table;}
-#works-popup .area-txt .links li {display: table-cell; padding: 0 5px;}
-#works-popup .area-txt .links li a {overflow: hidden; position: relative; display: inline-block; width: 54px; height: 54px; padding: 10px; border-radius: 50vh 50vh 0; border: 1px solid #f6f6f6; font-size: 11px; line-height: 16px; text-align: center; z-index: 0; transition: 0.3s color ease;}
-body:not(.device) #works-popup .area-txt .links li a:hover {color: #252525;}
-#works-popup .area-txt .links li a::before {content: ''; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 0; height: 0; border-radius: 50%; background: #f3ead3; z-index: -1; transition: 0.3s all ease;}
-body:not(.device) #works-popup .area-txt .links li a:hover::before {width: 101%; height: 101%; border-radius: 50% 50% 0;}
+#works-popup .area-txt .link-lists {display: table;}
+#works-popup .area-txt .link-lists > div {display: table-cell; padding: 0 5px;}
+#works-popup .area-txt .link-lists > div a {overflow: hidden; position: relative; display: inline-block; width: 54px; height: 54px; padding: 10px; border-radius: 50vh 50vh 0; border: 1px solid #f6f6f6; font-size: 11px; line-height: 16px; text-align: center; z-index: 0; transition: 0.3s color ease;}
+body:not(.device) #works-popup .area-txt .link-lists > div a:hover {color: #252525;}
+#works-popup .area-txt .link-lists > div a::before {content: ''; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 0; height: 0; border-radius: 50%; background: #f3ead3; z-index: -1; transition: 0.3s all ease;}
+body:not(.device) #works-popup .area-txt .link-lists > div a:hover::before {width: 101%; height: 101%; border-radius: 50% 50% 0;}
 #works-popup .btn-close {position: absolute; bottom: 0; left: 50%; width: 60px; height: 60px; margin-left: -30px; border-radius: 50vh; background: #f3ead3; font-size: 12px; color: #252525;}
 
 footer {padding: 30px 0; background: #252525; font-family: 'MavenPro', Geneva, sans-serif; font-size: 11px; color: rgba(246, 246, 246, 0.2); text-align: center;}
