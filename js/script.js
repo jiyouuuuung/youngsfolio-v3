@@ -244,6 +244,8 @@ function kvData() {
             responseObject = JSON.parse(xhr.responseText);
             var mainTxt = '';
             var mainContent = '';
+            mainTxt += '<ul>'
+            mainContent += '<ul class="kv-lists">';
             for (var i = 0; i < responseObject.works.length; i++) {
                 if (responseObject.works[i].onMain === true) {
                     mainTxt += '<li class="valign"><div class="middle"><p>' + responseObject.works[i].title + '</p></div></li>'
@@ -251,8 +253,10 @@ function kvData() {
                     mainContent += '<div class="area-obj"><img src="./images/works/thumbs/thumb' + responseObject.works[i].number + '.jpg" alt="thumbnail of ' + responseObject.works[i].title + '" /></div></button></li>'
                 }
             }
-            $('#section-intro .title-lists ul').html(mainTxt);
-            $('#section-intro .kv-lists').html(mainContent);
+            mainTxt += '</ul>';
+            mainContent += '</ul>';
+            $('#section-intro .title-lists').html(mainTxt);
+            $('#section-intro .kv-indicator').before(mainContent);
 
             kvSlider();
         }
@@ -269,7 +273,6 @@ function loadWork() {
             workLength++;
         }
         workData(workLength);
-        scrollIndicator();
     })
 }
 
@@ -279,6 +282,7 @@ function workData(workLenght) {
         if (xhr.status === 200) {
             responseObject = JSON.parse(xhr.responseText);
             var newContent = '';
+            newContent += '<ul>';
             for (var j = 0; j < 4 * workLenght; j++) {
                 if (j < responseObject.works.length) {
                 var skillsArray = [];
@@ -296,7 +300,10 @@ function workData(workLenght) {
                     $('#section-works .btn-more').remove();
                 }
             }
-            $('#section-works .work-lists > ul').html(newContent);
+            newContent += '</ul>';
+            $('#section-works .work-lists').html(newContent);
+            scrollTop = window.pageYOffset;
+            scrollIndicator();
         }
     };
 

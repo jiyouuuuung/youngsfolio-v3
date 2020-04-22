@@ -76,7 +76,6 @@ function onScroll()
     }
 
     workLength = 1;
-    scrollIndicator();
     kvData();
     workData(workLength);
 }());
